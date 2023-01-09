@@ -1,6 +1,6 @@
 import { authenticateUser } from "$lib/server/auth"
 import { redirect, type Handle } from "@sveltejs/kit"
-import { is_function } from "svelte/internal"
+
 
 export const handle: Handle = async ({ event, resolve }) => {
 	//stage 1
