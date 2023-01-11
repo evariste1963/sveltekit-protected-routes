@@ -7,7 +7,7 @@ export const load: PageServerLoad = async () => {
 
 export const actions: Actions = {
 	login: async ({ cookies }) => {
-		cookies.set("auth", "adminusertoken", {
+		cookies.set("auth", "regularusertoken", {
 			path: "/",
 			httpOnly: true,
 			sameSite: "strict",
